@@ -83,6 +83,20 @@ div{
     
 }
 
+.intorduccion{
+    padding: 0;
+    margin: 0;
+}
+
+video{
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 10000px;
+    height: 92%;
+    max-height: 10000px;
+    
+}
 
 .Aviso_1{
     display: inline-block;
