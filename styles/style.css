@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div div
+
+div{
+    width: 200;
+    height: 150;
+    display: block;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 10000px;
+    height: 5%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contenedor a h1{
+    display: block;
+    padding: 1rem 3rem;
+}
+
+.header{
+    background: rgb(53, 46, 46);
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem 0;
+}
+
+.logo-nav-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.Navegadores ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navegadores ul li{
+    display: inline-block;
+}
+
+.Navegadores ul li a{
+    display: block;
+    padding: 1rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.Navegadores ul li a:hover{
+    background: #a0e1ff;
+}
+
+.Titulo_1 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    font-weight: normal; 
+    color: #a0faa0;
+}
+
+.fondo_1{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 10000px;
+    height: 50%;
+    max-height: 550px;
+
+    
+}
+
+
+.Aviso_1{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    Color: Red;
+}
+

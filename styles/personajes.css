@@ -1,0 +1,38 @@
+* {
+    background: url(..//src/Mondstadt_Entrance_-_Windblume.png);
+    background-size: 100%;
+    padding: 0px;
+    border: 0px;
+}
+div div
+
+div{
+    width: 200;
+    height: 150;
+    display: block;
+}
+
+.Amber_1{
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    width: auto;
+    height: 100vh;
+}
+
+.Amber_1{
+    background: none;
+}
+
+.Muñeco{
+    background: none;
+}
+
+.Muñeco{
+    display: inline;
+    position: absolute;
+    left: 81%;
+    top: 56%;
+}
+
