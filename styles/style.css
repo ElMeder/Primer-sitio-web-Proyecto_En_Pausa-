@@ -86,16 +86,101 @@ div{
 .intorduccion{
     padding: 0;
     margin: 0;
+    top: 50px;
+    position: absolute;
 }
 
 video{
+    display: inline-block;
+    width: 100%;
+    max-width: 10000px;
+    height: 80%;
+    max-height: 1000px;
+    
+}
+
+.creditos{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.Barra_de_credito{
     position: absolute;
+    display: block;
+    top: 834px;
+    width: 100%;
+    max-width: 10000px;
+    height: 100%;
+    max-height: 140px;
+}
+
+.contenedor_2{
+    padding: 0;
+    margin: 0;
+}
+.canal_edit{
+    position: absolute;
+    display: block;
+    top: 835px;
+    left: 65px;
+}
+
+.canal_edit{
+    background: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.canal_creador{
+    position: absolute;
+    display: block;
+    background: none;
+    top: 865px;
+    left: 20px;
+
+}
+
+.contenedor_3{
+    padding: 0;
+    margin: 0;
+}
+
+.primer_fondo{
+    padding: 0;
+    margin: 0;
+}
+
+.laboratorio{
+    position: absolute;
+    top: 973px;
     display: block;
     width: 100%;
     max-width: 10000px;
-    height: 92%;
-    max-height: 10000px;
-    
+    height: 100%;
+    max-height: 1000px;
+}
+
+.creador_labo{
+    position: absolute;
+    display: block;
+    top: 840px;
+    left: 400px;
+}
+
+.perfil_labo{
+    position: absolute;
+    display: block;
+    top: 835px;
+    left: 490px;
+}
+
+.perfil_labo{
+    background: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1.5em;
 }
 
 .Aviso_1{
