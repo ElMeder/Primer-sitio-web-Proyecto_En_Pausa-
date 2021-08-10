@@ -10,22 +10,119 @@ div{
     display: block;
 }
 
-.Amber_1{
+.contenedor{
+    width: 100%;
+    max-width: 10000px;
+    height: 5%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contenedor a h1{
+    display: block;
+    padding: 1rem 3rem;
+}
+
+.header{
+    background: rgb(53, 46, 46);
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem 0;
+}
+
+.logo-nav-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.Navegadores ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navegadores ul li{
     display: inline-block;
 }
 
-.Amber_1{
-    background: none;
+.Navegadores ul li a{
+    display: block;
+    padding: 1rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
 }
 
-.Muñeco{
-    background: none;
+.Navegadores ul li a:hover{
+    background: #a0e1ff;
 }
 
-.Muñeco{
-    display: inline;
+.Titulo_1 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    font-weight: normal; 
+    color: #a0faa0;
+}
+
+.Slider_contenedor{
     position: absolute;
-    left: 81%;
-    top: 56%;
+    top: 50px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    height: 920px;
+    width: 1879px;
+
+}
+
+.mislider img{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    transition: 2s;
+}
+
+
+.barras{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.puntos{
+    cursor: pointer;
+    height: 10px;
+    width: 20px;
+    margin: 0 2px;
+    background: black;
+    display: table-column;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: white;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: 4;}
+    to{opacity: 1;}
 }
 
