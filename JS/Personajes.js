@@ -9,10 +9,6 @@ function posicionSlide(n){
     muestraSlides(indice=n);
 }
 
-setInterval(function tiempo(){
-    muestraSlides(indice+=1)
-},4000);
-
 function muestraSlides(n){
     let i;
     let Slides = document.getElementsByClassName("mislider");
