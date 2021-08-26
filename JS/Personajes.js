@@ -2,7 +2,7 @@ let indice = 1;
 muestraSlides(indice);
 
 function avanzaSlide (n){
-    muestraSlides(indice+=n);
+    muestrabarras(indice+=n);
 }
 
 function posicionSlide(n){
@@ -14,11 +14,11 @@ function muestraSlides(n){
     let Slides = document.getElementsByClassName("mislider");
     let barras = document.getElementsByClassName("puntos");
 
-    if(n > Slides.length){
+    if(n > barras.length){
         indice = 1;
     }
     if(n < 1){
-        indice =  Slides.length();
+        indice =  barras.length();
     }
     for(i = 0; i < Slides.length; i++){
         Slides[i].style.display = "none";

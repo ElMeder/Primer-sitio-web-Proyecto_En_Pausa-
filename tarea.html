@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom JS</title>
+</head>
+<body>
+    <h1 id="title">DOM</h1>
+
+    <h2 class=""> loquesea</h2>
+    <p class="parrafo">SI</p>
+    <button onclick="changeSI()">NO</button>
+    <button onclick="changeDOM()">Change to dom</button>
+    <img id="amber" src="/src/1 (Amber_muñeco).gif" alt="">
+
+    <script>
+        const amber = document.querySelector('#amber')
+        
+        amber.src = '../src/amber_icon.jpg'
+
+
+
+
+        const Titulo = document.getElementById( 'title' );
+        
+        const subtitilo = document.getElementsByTagName( 'h2' );
+        console.log(subtitilo);
+
+        const parrafo = document.getElementsByClassName( 'parrafo' );
+
+        //cambiar titulo
+        const changeDOM = () =>{
+            Titulo.innerHTML = 'version2.1';
+        }
+
+        const changeSI = () =>{
+            parrafo[0].innerHTML = "LA MAMÁ DE LA MAMÁ LA MAMÁ DE LA MAMÁ LA MAMÁ DE LA MAMÁ LA MAMÁ DE LA MAMÁ LA MAMÁ DE LA MAMÁ LA MAMÁ DE LA MAMÁ";
+        }
+        /*Titulo.innerHTML = "DOCUMENT OBJECT";*/
+        subtitilo[0].innerHTML = "NO DOM";
+        parrafo[0].style.fontSize = '200px';
+        
+
+    </script>
+</body>
+</html>
