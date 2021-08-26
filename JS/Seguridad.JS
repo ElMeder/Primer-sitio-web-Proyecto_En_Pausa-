@@ -28,5 +28,5 @@ function muestraSlides(n){
     }
 
     Slides[indice-1].style.display = "block";
-    barras[indice-1].className += " active";
+    barras[indice-1].className += " active";  
 }
