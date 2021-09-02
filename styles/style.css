@@ -186,20 +186,20 @@ video{
 
 .mislider img{
     position: relative;
-    left: 25%;
+    left: 15%;
     height: 460px;
-    width: 960px;
+    width: 560px;
     vertical-align: top;
     transition: 2s;
 }
 
 
 .direcciones{
-    width: 54.2%;
+    width: 30.1%;
     height: 95%;
     position: absolute;
     top: 0;
-    left: 23.6%;
+    left: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,7 +221,7 @@ video{
 .barras{
     position: absolute;
     bottom: 0;
-    left: 47%;
+    left: 26%;
     width: 100%;
     display: flex;
     margin-bottom: 15px;
@@ -252,6 +252,31 @@ video{
     to{opacity: 1;}
 }
 
+.Cartel_de_noticia{
+    position: absolute;
+    top: 1240px;
+    left: 840px;
+    background: white;
+}
+
+.titulo_original{
+    position: relative;
+    border-bottom: 2.5px solid black;
+    margin: 25px;
+}
+
+.noticia_1{
+    margin: 25px;
+    border-bottom: 2.5px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.titulo_1d{
+ font-size: 20px;
+ font-weight: bolder;
+}
+
 .Aviso_1{
     display: inline-block;
     position: absolute;
@@ -259,3 +284,292 @@ video{
     Color: Red;
 }
 
+@media(min-width:767px) and (max-width:1023px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    div div 
+    
+    div{
+        width: 200;
+        height: 150;
+        display: block;
+    }
+    
+    .contenedor{
+        width: 100%;
+        max-width: 10000px;
+        height: 5%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    .contenedor a h1{
+        display: block;
+        padding: 1rem 3rem;
+    }
+    
+    .header{
+        background: rgb(53, 46, 46);
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    .header a {
+        color: white;
+        text-decoration: none;
+        padding: 2rem 0;
+    }
+    
+    .logo-nav-contenedor{
+        display: flex;
+        align-items: center;
+    }
+    
+    .Navegadores ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .Navegadores ul li{
+        display: inline-block;
+    }
+    
+    .Navegadores ul li a{
+        display: block;
+        padding: 1rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .Navegadores ul li a:hover{
+        background: #a0e1ff;
+    }
+    
+    .Titulo_1 {
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal; 
+        color: #a0faa0;
+    }
+    
+    .intorduccion{
+        padding: 0;
+        margin: 0;
+        width: 1864px;
+        height: 785px;
+        top: 50px;
+        position: absolute;
+    }
+    
+    video{
+        object-fit: cover;
+        display: inline-block;
+        width: 767px;
+        height: 450px;
+    }
+    
+    .creditos{
+        padding: 0;
+        margin: 0;
+        width: 767px;
+        height: 100px;
+        position: absolute;
+        top: 500px;
+    }
+    
+    .Barra_de_credito{
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contenedor_2{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .canal_edit{
+        position: absolute;
+        display: block;
+        top: 835px;
+        left: 65px;
+    }
+    
+    .canal_edit{
+        background: none;
+        color: white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    .canal_creador{
+        position: absolute;
+        display: block;
+        background: none;
+        top: 865px;
+        left: 20px;
+    
+    }
+    
+    .contenedor_3{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .primer_fondo{
+        padding: 0;
+        margin: 0;
+        width: 1864px;
+        height: 1000px;
+        position: absolute;
+        top: 973px;
+    }
+    
+    .laboratorio{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .creador_labo{
+        position: absolute;
+        display: block;
+        top: 840px;
+        left: 400px;
+    }
+    
+    .perfil_labo{
+        position: absolute;
+        display: block;
+        top: 835px;
+        left: 490px;
+    }
+    
+    .perfil_labo{
+        background: none;
+        color: white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    .Slider_contenedor{
+        position: absolute;
+        top: 1240px;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .mislider img{
+        position: relative;
+        left: 20%;
+        height: 230px;
+        width: 280px;
+        vertical-align: top;
+        transition: 2s;
+    }
+    
+    
+    .direcciones{
+        width: 280px;
+        height: 230px;
+        position: absolute;
+        top: 0;
+        left: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .direcciones a{
+        color: white;
+        display: block;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .direcciones a:hover{
+        background: rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+    
+    .barras{
+        position: absolute;
+        bottom: 0;
+        left: 26%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    .puntos{
+        cursor: pointer;
+        height: 10px;
+        width: 20px;
+        margin: 0 2px;
+        background: black;
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .active{
+        background-color: white;
+    }
+    
+    .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fade{
+        from {opacity: 4;}
+        to{opacity: 1;}
+    }
+    
+    .Cartel_de_noticia{
+        position: absolute;
+        top: 1240px;
+        left: 434px;
+        background: white;
+        width: 150px;
+        height: auto;
+    }
+    
+    .titulo_original{
+        position: relative;
+        border-bottom: 2.5px solid black;
+        margin: 25px;
+    }
+    
+    .noticia_1{
+        margin: 25px;
+        border-bottom: 2.5px solid black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .titulo_1d{
+     font-size: 20px;
+     font-weight: bolder;
+    }
+    
+    .Aviso_1{
+        display: inline-block;
+        position: absolute;
+        top: 80px;
+        Color: Red;
+    } 
+}
