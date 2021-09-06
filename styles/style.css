@@ -1,289 +1,9 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-div div 
-
-div{
-    width: 200;
-    height: 150;
-    display: block;
-}
-
-.contenedor{
-    width: 100%;
-    max-width: 10000px;
-    height: 5%;
-    height: 50px;
-    margin: 0 auto;
-}
-
-.contenedor a h1{
-    display: block;
-    padding: 1rem 3rem;
-}
-
-.header{
-    background: rgb(53, 46, 46);
-    color: white;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-.header a {
-    color: white;
-    text-decoration: none;
-    padding: 2rem 0;
-}
-
-.logo-nav-contenedor{
-    display: flex;
-    align-items: center;
-}
-
-.Navegadores ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.Navegadores ul li{
-    display: inline-block;
-}
-
-.Navegadores ul li a{
-    display: block;
-    padding: 1rem 1rem;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-}
-
-.Navegadores ul li a:hover{
-    background: #a0e1ff;
-}
-
-.Titulo_1 {
-    font-size: 2em;
-    font-family: 'Lobster', cursive;
-    font-weight: normal; 
-    color: #a0faa0;
-}
-
-.intorduccion{
-    padding: 0;
-    margin: 0;
-    width: 1864px;
-    height: 785px;
-    top: 50px;
-    position: absolute;
-}
-
-video{
-    object-fit: cover;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
-.creditos{
-    padding: 0;
-    margin: 0;
-    width: 1864px;
-    height: 139px;
-    position: absolute;
-    top: 834px;
-}
-
-.Barra_de_credito{
-    object-fit: cover;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
-.contenedor_2{
-    padding: 0;
-    margin: 0;
-}
-
-.canal_edit{
-    position: absolute;
-    display: block;
-    top: 835px;
-    left: 65px;
-}
-
-.canal_edit{
-    background: none;
-    color: white;
-    font-weight: normal;
-    font-size: 1.5em;
-}
-
-.canal_creador{
-    position: absolute;
-    display: block;
-    background: none;
-    top: 865px;
-    left: 20px;
-
-}
-
-.contenedor_3{
-    padding: 0;
-    margin: 0;
-}
-
-.primer_fondo{
-    padding: 0;
-    margin: 0;
-    width: 1864px;
-    height: 1000px;
-    position: absolute;
-    top: 973px;
-}
-
-.laboratorio{
-    object-fit: cover;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.creador_labo{
-    position: absolute;
-    display: block;
-    top: 840px;
-    left: 400px;
-}
-
-.perfil_labo{
-    position: absolute;
-    display: block;
-    top: 835px;
-    left: 490px;
-}
-
-.perfil_labo{
-    background: none;
-    color: white;
-    font-weight: normal;
-    font-size: 1.5em;
-}
-
-.Slider_contenedor{
-    position: absolute;
-    top: 1240px;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-
-}
-
-.mislider img{
-    position: relative;
-    left: 15%;
-    height: 460px;
-    width: 560px;
-    vertical-align: top;
-    transition: 2s;
-}
-
-
-.direcciones{
-    width: 30.1%;
-    height: 95%;
-    position: absolute;
-    top: 0;
-    left: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 50px;
-}
-
-.direcciones a{
-    color: white;
-    display: block;
-    padding: 0;
-    text-decoration: none;
-}
-
-.direcciones a:hover{
-    background: rgba(0, 0, 0, .5);
-    transition: .5s;
-}
-
-.barras{
-    position: absolute;
-    bottom: 0;
-    left: 26%;
-    width: 100%;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.puntos{
-    cursor: pointer;
-    height: 10px;
-    width: 20px;
-    margin: 0 2px;
-    background: black;
-    display: inline-block;
-    margin-left: 5px;
-    border-radius: 5px;
-}
-
-.active{
-    background-color: white;
-}
-
-.fade{
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade{
-    from {opacity: 4;}
-    to{opacity: 1;}
-}
-
-.Cartel_de_noticia{
-    position: absolute;
-    top: 1240px;
-    left: 840px;
-    background: white;
-}
-
-.titulo_original{
-    position: relative;
-    border-bottom: 2.5px solid black;
-    margin: 25px;
-}
-
-.noticia_1{
-    margin: 25px;
-    border-bottom: 2.5px solid black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@media screen and (min-width:767px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
     
-}
-
-.titulo_1d{
- font-size: 20px;
- font-weight: bolder;
-}
-
-.Aviso_1{
-    display: inline-block;
-    position: absolute;
-    top: 80px;
-    Color: Red;
-}
-
     div div 
     
     div{
@@ -301,8 +21,10 @@ video{
     }
     
     .contenedor a h1{
-        display: block;
-        padding: 1rem 3rem;
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+        padding: 0;
     }
     
     .header{
@@ -336,11 +58,14 @@ video{
     }
     
     .Navegadores ul li a{
-        display: block;
+        position: relative;
+        left: 450px;
+        display: inline-block;
         padding: 1rem 1rem;
         transition: all 0.4s linear;
         border-radius: 5px;
     }
+    
     .Navegadores ul li a:hover{
         background: #a0e1ff;
     }
@@ -352,6 +77,13 @@ video{
         color: #a0faa0;
     }
     
+    .Titulo_1{
+        margin: 0;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        border: 0;
+    }
+    
     .intorduccion{
         padding: 0;
         margin: 0;
@@ -360,12 +92,14 @@ video{
         top: 50px;
         position: absolute;
     }
+    
     video{
         object-fit: cover;
         display: inline-block;
         width: 767px;
         height: 450px;
     }
+    
     .creditos{
         padding: 0;
         margin: 0;
@@ -373,6 +107,1019 @@ video{
         height: 100px;
         position: absolute;
         top: 500px;
+    }
+    
+    .Barra_de_credito{
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contenedor_2{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .canal_edit{
+        position: absolute;
+        display: block;
+        top: 500px;
+        left: 65px;
+    }
+    
+    .canal_edit{
+        background: none;
+        color: white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    .canal_creador{
+        position: absolute;
+        display: block;
+        background: none;
+        top: 525px;
+        left: 50px;
+        width: 200px;
+    }
+    
+    .contenedor_3{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .primer_fondo{
+        padding: 0;
+        margin: 0;
+        width: 767px;
+        height: 450px;
+        position: absolute;
+        top: 600px;
+    }
+    
+    .segundo_fondo{
+        padding: 0;
+        margin: 0;
+        width: 767px;
+        height: 450px;
+        position: absolute;
+        top: 1050px;
+    }
+
+    .tercer_fondo{
+        padding: 0;
+        margin: 0;
+        width: 767px;
+        height: 450px;
+        position: absolute;
+        top: 1500px;
+    }
+
+    .Salon_2{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Salon{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+
+    .laboratorio{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .creador_labo{
+        position: absolute;
+        display: block;
+        top: 520px;
+        left: 400px;
+        width: 250px;
+    }
+    
+    .perfil_labo{
+        position: absolute;
+        display: block;
+        top: 500px;
+        left: 405px;
+    }
+    
+    .perfil_labo{
+        background: none;
+        color: white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    .Cartel_de_noticia{
+        position: absolute;
+        top: 700px;
+        left: 390px;
+        background: rgba(255, 255, 255, 0.397);
+        width: 250px;
+        height: auto;
+    }
+    
+    .titulo_original{
+        position: relative;
+        border-bottom: 2.5px solid black;
+        margin: 25px;
+    }
+    
+    .noticia_1{
+        margin: 25px;
+        border-bottom: 2.5px solid black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .titulo_1d{
+     font-size: 20px;
+     font-weight: bolder;
+    }
+
+    .titulo_1d a{
+        color: black;
+        text-decoration: none;
+        padding: 2rem 0;
+    }
+
+    .titulo_1d a:hover{
+        color: rgba(158, 82, 55, 0.815);
+    }
+    
+    
+    .Aviso_1{
+        display: inline-block;
+        position: absolute;
+        top: 80px;
+        Color: Red;
+    } 
+    
+    .Slider_contenedor{
+        position: absolute;
+        top: 700px;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .mislider img{
+        position: relative;
+        left: 110px;
+        height: 230px;
+        width: 280px;
+        vertical-align: top;
+        transition: 2s;
+    }
+    
+    .direcciones{
+        width: 280px;
+        height: 230px;
+        position: absolute;
+        top: 0;
+        left: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .direcciones a{
+        color: white;
+        display: block;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .direcciones a:hover{
+        background: rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+    
+    .barras{
+        position: absolute;
+        top: 220px;
+        left: 32.5%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    .puntos{
+        cursor: pointer;
+        height: 9px;
+        width: 20px;
+        margin: 0 2px;
+        background: black;
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .active{
+        background-color: white;
+    }
+    
+    .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fade{
+        from {opacity: 4;}
+        to{opacity: 1;}
+    }
+    
+    .FanArt_contenedor{
+        position: absolute;
+        top: 1685px;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .FanSlider img{
+        position: relative;
+        left: 35%;
+        height: 40%;
+        width: 32%;
+        vertical-align: top;
+        transition: 2s;
+        
+    }
+     
+    #Ins{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+    }
+
+    #Twi{
+        width: 5%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+    }
+
+    .dueño{
+        position: absolute;
+        top: 85%;
+        left: 40%;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .dueño_2{
+        position: absolute;
+        top: 83%;
+        left: 39.2%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: purple;
+    }
+
+    .dueño_3{
+        position: absolute;
+        top: 83%;
+        left: 39.2%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: rgb(62, 147, 199);
+    }
+
+    .Nombre{
+        position: absolute;
+        left: 46%;
+        top: 210%;
+        font-size: 2em;
+        font-family: 'Shadows Into Light', cursive;
+        font-weight: normal;
+        color: rgb(106, 168, 132);
+    }
+
+    .flechas{
+        width: 34.7%;
+        height: 95%;
+        position: absolute;
+        top: 0;
+        left: 33.6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .flechas a{
+        color: white;
+        display: block;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .flechas a:hover{
+        background: rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+    
+    .barre{
+        position: absolute;
+        top: 97%;
+        left: 47%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    .punto{
+        cursor: pointer;
+        height: 10px;
+        width: 20px;
+        margin: 0 2px;
+        background: black;
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .active{
+        background-color: white;
+    }
+    
+    .fada{
+        animation-name: fada;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fada{
+        from {opacity: 4;}
+        to{opacity: 1;}
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:2569px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    div div 
+    
+    div{
+        width: 200;
+        height: 150;
+        display: block;
+    }
+    
+    .contenedor{
+        width: 100%;
+        max-width: 10000px;
+        height: 5%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    .contenedor a h1{
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+        padding: 0;
+    }
+    
+    .header{
+        background: rgb(53, 46, 46);
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    .header a {
+        color: white;
+        text-decoration: none;
+        padding: 2rem 0;
+    }
+    
+    .logo-nav-contenedor{
+        display: flex;
+        align-items: center;
+    }
+    
+    .Navegadores ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .Navegadores ul li{
+        display: inline-block;
+    }
+    
+    .Navegadores ul li a{
+        position: relative;
+        left: 450px;
+        display: inline-block;
+        padding: 1rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .Navegadores ul li a:hover{
+        background: #a0e1ff;
+    }
+    
+    .Titulo_1 {
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal; 
+        color: #a0faa0;
+    }
+    
+    .Titulo_1{
+        margin: 0;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        border: 0;
+    }
+    
+    .intorduccion{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 83.5%;
+        top: 50px;
+        position: absolute;
+    }
+    
+    video{
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .creditos{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 820px;
+    }
+    
+    .Barra_de_credito{
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contenedor_2{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .canal_edit{
+        position: absolute;
+        display: block;
+        top: 87%;
+        left: 4%;
+    }
+    
+    .canal_edit{
+        background: none;
+        color: white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    .canal_creador{
+        position: absolute;
+        display: block;
+        background: none;
+        top: 90%;
+        left: 1%;
+        width: 15%;
+    }
+    
+    .contenedor_3{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .primer_fondo{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 103%;
+    }
+
+    .contenedor_4{
+        padding: 0;
+        margin: 0;
+    }
+
+    .segundo_fondo{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 203%;
+    }
+
+    .contenedor_5{
+        padding: 0;
+        margin: 0;
+    }
+
+    .tercer_fondo{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 303%;
+    }
+
+    .Salon_2{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Salon{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .klee_1{
+         position: absolute;
+         top: 263%;
+         left: 66%;
+    }
+
+    .klee_1d{
+        width: 50%;
+        height: auto;
+    }
+
+    .klee_2{
+        position: absolute;
+        top: 263%;
+        left: 20%;
+    }
+
+    .klee_2d{
+        width: 50%;
+        height: auto;
+    }
+
+    .klee_3{
+        position: absolute;
+        top: 192%;
+        left: 44%;
+    }
+
+    .klee_3d{
+        width: 50%;
+        height: auto;
+    }
+
+    .laboratorio{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .creador_labo{
+        position: absolute;
+        display: block;
+        top: 90%;
+        left: 22%;
+        width: 18%;
+    }
+    
+    .perfil_labo{
+        position: absolute;
+        display: block;
+        top: 87%;
+        left: 24.5%;
+    }
+    
+    .perfil_labo{
+        background: none;
+        color: white;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    .Cartel_de_noticia{
+        position: absolute;
+        top: 132.1%;
+        left: 50%;
+        background: rgba(255, 255, 255, 0.397);
+        width: 38%;
+        height: none;
+    }
+    
+    .titulo_original{
+        position: relative;
+        border-bottom: 2.5px solid black;
+        margin: 2%;
+    }
+    
+    .noticia_1{
+        margin: 2%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .titulo_1d{
+     font-size: 125%;
+     font-weight: bolder;
+    }
+    
+    .titulo_1d a{
+        color: black;
+        text-decoration: none;
+        padding: 2rem 0;
+    }
+
+    .titulo_1d a:hover{
+        color: rgba(158, 82, 55, 0.815);
+    }
+     
+    .noticia_2{
+        margin: 2%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .titulo_2d{
+     font-size: 125%;
+     font-weight: bolder;
+    }
+
+    .espacio_d{
+        width: 100%;
+        height: 55%;
+    }
+
+    .Aviso_1{
+        display: inline-block;
+        position: absolute;
+        top: 80px;
+        Color: Red;
+    }
+
+    .Slider_contenedor{
+        position: absolute;
+        top: 1240px;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .mislider img{
+        position: relative;
+        left: 18.1%;
+        height: 40%;
+        width: 31.9%;
+        vertical-align: top;
+        transition: 2s;
+    }
+
+    .direcciones{
+        width: 32%;
+        height: 95%;
+        position: absolute;
+        top: 0;
+        left: 18%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .direcciones a{
+        color: white;
+        display: block;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .direcciones a:hover{
+        background: rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+    
+    .barras{
+        position: absolute;
+        top: 97%;
+        left: 32.5%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    .puntos{
+        cursor: pointer;
+        height: 10px;
+        width: 20px;
+        margin: 0 2px;
+        background: black;
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .active{
+        background-color: white;
+    }
+    
+    .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fade{
+        from {opacity: 4;}
+        to{opacity: 1;}
+    }
+    
+    .FanArt_contenedor{
+        position: absolute;
+        top: 1685px;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .FanSlider img{
+        position: relative;
+        left: 35%;
+        height: 40%;
+        width: 32%;
+        vertical-align: top;
+        transition: 2s;
+        
+    }
+
+    #Ins {
+        width: 5%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+    }
+
+    #Twi{
+        width: 5%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+    }
+
+    .dueño{
+        position: absolute;
+        top: 83%;
+        left: 40%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: purple;
+    }
+     
+    .dueño_2{
+        position: absolute;
+        top: 83%;
+        left: 39.2%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: purple;
+    }
+
+    .dueño_3{
+        position: absolute;
+        top: 83%;
+        left: 39.2%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: rgb(62, 147, 199);
+    }
+
+    .Nombre{
+        position: absolute;
+        left: 46%;
+        top: 210%;
+        font-size: 2em;
+        font-family: 'Shadows Into Light', cursive;
+        font-weight: normal;
+        color: rgb(106, 168, 132);
+    }
+
+    .flechas{
+        width: 34.7%;
+        height: 95%;
+        position: absolute;
+        top: 0;
+        left: 33.6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .flechas a{
+        color: rgb(67, 82, 100);
+        display: block;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .flechas a:hover{
+        background: rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+    
+    .barre{
+        position: absolute;
+        top: 97%;
+        left: 47%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    .punto{
+        cursor: pointer;
+        height: 10px;
+        width: 20px;
+        margin: 0 2px;
+        background: black;
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .active{
+        background-color: white;
+    }
+    
+    .fada{
+        animation-name: fada;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fada{
+        from {opacity: 4;}
+        to{opacity: 1;}
+    }
+}
+
+@media screen and (min-width:2560px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    div div 
+    
+    div{
+        width: 200;
+        height: 150;
+        display: block;
+    }
+    
+    .contenedor{
+        width: 100%;
+        max-width: 10000px;
+        height: 5%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    .contenedor a h1{
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+        padding: 0;
+    }
+    
+    .header{
+        background: rgb(53, 46, 46);
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    .header a {
+        color: white;
+        text-decoration: none;
+        padding: 2rem 0;
+    }
+    
+    .logo-nav-contenedor{
+        display: flex;
+        align-items: center;
+    }
+    
+    .Navegadores ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .Navegadores ul li{
+        display: inline-block;
+    }
+    
+    .Navegadores ul li a{
+        position: relative;
+        left: 450px;
+        display: inline-block;
+        padding: 1rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .Navegadores ul li a:hover{
+        background: #a0e1ff;
+    }
+    
+    .Titulo_1 {
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal; 
+        color: #a0faa0;
+    }
+    
+    .Titulo_1{
+        margin: 0;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        border: 0;
+    }
+    
+    .intorduccion{
+        padding: 0;
+        margin: 0;
+        width: 2560px;
+        height: auto;
+        top: 79px;
+        position: absolute;
+    }
+    
+    video{
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .creditos{
+        padding: 0;
+        margin: 0;
+        width: 2560px;
+        height: 180px;
+        position: absolute;
+        top: 1130px;
     }
     
     .Barra_de_credito{
@@ -414,14 +1161,50 @@ video{
         padding: 0;
         margin: 0;
     }
+    
     .primer_fondo{
         padding: 0;
         margin: 0;
         width: 1864px;
         height: 1000px;
         position: absolute;
+        top: 1500px;
+    }
+
+    .segundo_fondo{
+        padding: 0;
+        margin: 0;
+        width: 767px;
+        height: 450px;
+        position: absolute;
+        top: 1500px;
+    }
+
+    .tercer_fondo{
+        padding: 0;
+        margin: 0;
+        width: 767px;
+        height: 450px;
+        position: absolute;
+        top: 1500px;
+    }
+
+    .Salon_2{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Salon{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
     }
     
+
+
     .laboratorio{
         object-fit: cover;
         display: block;
@@ -435,6 +1218,7 @@ video{
         top: 840px;
         left: 400px;
     }
+    
     .perfil_labo{
         position: absolute;
         display: block;
@@ -448,6 +1232,48 @@ video{
         font-weight: normal;
         font-size: 1.5em;
     }
+
+    .Cartel_de_noticia{
+        position: absolute;
+        top: 1240px;
+        left: 840px;
+        background: rgba(255, 255, 255, 0.397);
+    }
+    
+    .titulo_original{
+        position: relative;
+        border-bottom: 2.5px solid black;
+        margin: 25px;
+    }
+    
+    .noticia_1{
+        margin: 25px;
+        border-bottom: 2.5px solid black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .titulo_1d{
+     font-size: 20px;
+     font-weight: bolder;
+    }
+
+    .titulo_1d a{
+        color: black;
+        text-decoration: none;
+        padding: 2rem 0;
+    }
+    
+    .titulo_1d a:hover{
+        color: rgba(158, 82, 55, 0.815);
+    }
+    
+    .Aviso_1{
+        display: inline-block;
+        position: absolute;
+        top: 80px;
+        Color: Red;
+    } 
     
     .Slider_contenedor{
         position: absolute;
@@ -461,20 +1287,20 @@ video{
     
     .mislider img{
         position: relative;
-        left: 20%;
-        height: 230px;
-        width: 280px;
+        left: 15%;
+        height: 460px;
+        width: 560px;
         vertical-align: top;
         transition: 2s;
     }
     
     
     .direcciones{
-        width: 280px;
-        height: 230px;
+        width: 30.1%;
+        height: 95%;
         position: absolute;
         top: 0;
-        left: 20%;
+        left: 15%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -487,6 +1313,7 @@ video{
         padding: 0;
         text-decoration: none;
     }
+    
     .direcciones a:hover{
         background: rgba(0, 0, 0, .5);
         transition: .5s;
@@ -495,7 +1322,7 @@ video{
     .barras{
         position: absolute;
         bottom: 0;
-        left: 26%;
+        left: 32.5%;
         width: 100%;
         display: flex;
         margin-bottom: 15px;
@@ -515,6 +1342,7 @@ video{
     .active{
         background-color: white;
     }
+    
     .fade{
         animation-name: fade;
         animation-duration: 1.5s;
@@ -525,34 +1353,137 @@ video{
         to{opacity: 1;}
     }
     
-    .Cartel_de_noticia{
+    .FanArt_contenedor{
         position: absolute;
-        top: 1240px;
-        left: 434px;
-        background: white;
-    }
-
-    .titulo_original{
+        top: 1685px;
         position: relative;
-        border-bottom: 2.5px solid black;
-        margin: 25px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    
     }
     
-    .noticia_1{
-        margin: 25px;
-        border-bottom: 2.5px solid black;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .FanSlider img{
+        position: relative;
+        left: 35%;
+        height: 40%;
+        width: 32%;
+        vertical-align: top;
+        transition: 2s;
         
     }
-    
-    .titulo_1d{
-     font-size: 20px;
-     font-weight: bolder;
-    }
-    .Aviso_1{
-        display: inline-block;
+
+    #Ins{
+        width: 20%;
+        height: auto;
         position: absolute;
-        top: 80px;
-        Color: Red;
-    } 
+        top: 80%;
+    }
+
+    #Twi{
+        width: 5%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+    }
+
+    .dueño{
+        position: absolute;
+        top: 85%;
+        left: 40%;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        text-decoration: none;
+    }
+     
+    .dueño_2{
+        position: absolute;
+        top: 83%;
+        left: 39.2%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: purple;
+    }
+
+    .dueño_3{
+        position: absolute;
+        top: 83%;
+        left: 39.2%;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        color: rgb(62, 147, 199);
+    }
+
+    .Nombre{
+        position: absolute;
+        left: 46%;
+        top: 210%;
+        font-size: 2em;
+        font-family: 'Shadows Into Light', cursive;
+        font-weight: normal;
+        color: rgb(106, 168, 132);
+    }
+
+    .flechas{
+        width: 34.7%;
+        height: 95%;
+        position: absolute;
+        top: 0;
+        left: 33.6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .flechas a{
+        color: white;
+        display: block;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .flechas a:hover{
+        background: rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+    
+    .barre{
+        position: absolute;
+        top: 97%;
+        left: 47%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    .punto{
+        cursor: pointer;
+        height: 10px;
+        width: 20px;
+        margin: 0 2px;
+        background: black;
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .active{
+        background-color: white;
+    }
+    
+    .fada{
+        animation-name: fada;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes fada{
+        from {opacity: 4;}
+        to{opacity: 1;}
+    }
 }

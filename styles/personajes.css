@@ -77,15 +77,25 @@
  
 body{
     background: black;
+
 }
 
-main{
+.fondo_2{
     position: absolute;
-    top: 50px;
+    top: 250px;
     left: 10%;
     background: white;
     width: 80%;
     height: 200%;   
+}
+
+.cabeza_2{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.103);
+    width: 80%;
+    height: 21.3%;
 }
 
 .Slider_contenedor{
@@ -100,7 +110,7 @@ main{
 
 .mislider{
     position: absolute;
-    top: 150px;
+    bottom: 5px;
     height: 100%;
     width: 100%;
     vertical-align: top;
@@ -108,19 +118,19 @@ main{
 }
 
 .direcciones{
-    width: 54.2%;
+    width: 85%;
     height: 95%;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 15%;
+    left: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .direcciones a{
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     padding: 0;
     text-decoration: none;
@@ -133,75 +143,436 @@ main{
 
 .barras{
     position: absolute;
-    bottom: 98.4%;
-    right: 50px;
-    width: 100%;
+    top: 0%;
+    left: 7%;
+    width: 80%;
+    height: 100%;
     display: flex;
     margin-bottom: 15px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
 }
 
 .puntos{
     cursor: pointer;
-    height: 10px;
-    width: 20px;
+    height: 190px;
+    width: 165px;
     margin: 0 2px;
     display: inline-block;
-    margin-left: 175px;
+    margin-left: 55px;
+    position: relative;
+    right: 2.5%; 
+}
+
+.puntos:hover{
+    background: #ebebebcc;
+}
+
+.presentacion{
+    position: absolute;
+    left: 490px;
+    width: 987px;
+    height: 384px;
+    top: 10px;
+    border: 4px solid rgb(83, 82, 81);
+    border-left: none;
+}
+
+.Caracteristica_d{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.Caracteristica_titulo{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.Nombres{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    left: 21px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+}
+
+.Nombres:hover{
+    color: black;
 }
 
 .Sacarosa_icon{
-    height: 150px;
-    width: 150px;
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
 }
 
 .Sacarosa{
     position: absolute;
-    bottom: 1516px;
-    right: 958px;
-    width: 530px;
-    height: 344px;
+    bottom: 1476px;
+    right: 998px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
     border-right: none;
 }
 
+.Contenido_de_Caracteristicas_de_rareza{
+    position: absolute;
+    bottom: 24%;
+}
+
+.Titulo_de_rareza{
+    position: relative;
+    top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+
+}
+
+.Skill_Star{
+ position: absolute;
+ top: 25px;
+ right: 32.5px;
+}
+
+.Skill_Star2{
+    position: absolute;
+    top: 25px;
+    right: 22.5px;
+}
+
+.Skill_Star3{
+    position: absolute;
+    top: 25px;
+    right: 12.5px;
+}
+
+.Skill_Star4{
+    position: absolute;
+    top: 25px;
+    right: 2.5px;
+}
+
+.Contenido_de_Caracteristicas_de_Arma{
+    position: absolute;
+    bottom: 24%;
+    left: 85px;
+}
+
+.Titulo_de_Arma{
+    position: relative;
+    top: 60px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+}
+
+.nombre_del_arma_Saca{
+    position: relative;
+    top: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+    color: plum;
+}
+
 .Amber_icon{
-    height: 150px;
-    width: 150px;
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
 }
 
 .Amber{
+    position: absolute;
+    bottom: 1476px;
+    right: 998px;
+    width: 480px;
+    height: 384px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none;
+   
+}
+
+.jean.icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+.jean{
+    position: absolute;
+    bottom: 1476px;
+    right: 998px;
+    width: 480px;
+    height: 384px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none;
+}
+
+.lisa.icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.lisa{
+    position: absolute;
+    bottom: 1476px;
+    right: 998px;
+    width: 480px;
+    height: 384px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none;
+}
+
+.kaeya_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.kaeya{
+    position: absolute;
+    bottom: 1476px;
+    right: 998px;
+    width: 480px;
+    height: 384px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none;
+}
+
+.bárbara_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.barbara{
+    position: absolute;
+    bottom: 1476px;
+    right: 998px;
+    width: 480px;
+    height: 384px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none;
+}
+
+.diluc_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.diluc{
     position: absolute;
     bottom: 1516px;
     right: 998px;
     width: 490px;
     height: 344px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none;
-   
+    border-right: none; 
 }
 
-.presentacion{
+.razor_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.razor{
     position: absolute;
-    left: 800px;
-    top: 10px;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
     border: 4px solid rgb(83, 82, 81);
-    border-left: none;
+    border-right: none; 
 }
 
-.Caracteristica_Amber{
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
+.venti_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
 }
 
-.Caracteristica_Amber_titulo{
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
+.venti{
+    position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.klee_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.klee{
+    position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.bennett_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.bennett{
+    position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.noelle_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.noelle{
+    position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.fischl_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.fischl{
+    position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.mona_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.mona{
+position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.diona_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.diona{
+position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.albedo_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.albedo{
+position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.rosaria_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.rosaria{
+position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.eula_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.eula{
+position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
+}
+
+.aloy_icon{
+    height: 145px;
+    width: 145px;
+    background: #282e2ecc;
+}
+
+.aloy{
+position: absolute;
+    bottom: 1516px;
+    right: 998px;
+    width: 490px;
+    height: 344px;
+    border: 4px solid rgb(83, 82, 81);
+    border-right: none; 
 }
 
 .active{
-    background-color: white;
+    background: #ebebebcc;
 }
 
 .fade{
