@@ -284,12 +284,6 @@ video{
     Color: Red;
 }
 
-@media(min-width:767px) and (max-width:1023px){
-    * {
-        padding: 0px;
-        margin: 0px;
-    }
-    
     div div 
     
     div{
@@ -347,7 +341,6 @@ video{
         transition: all 0.4s linear;
         border-radius: 5px;
     }
-    
     .Navegadores ul li a:hover{
         background: #a0e1ff;
     }
@@ -367,14 +360,12 @@ video{
         top: 50px;
         position: absolute;
     }
-    
     video{
         object-fit: cover;
         display: inline-block;
         width: 767px;
         height: 450px;
     }
-    
     .creditos{
         padding: 0;
         margin: 0;
@@ -423,14 +414,12 @@ video{
         padding: 0;
         margin: 0;
     }
-    
     .primer_fondo{
         padding: 0;
         margin: 0;
         width: 1864px;
         height: 1000px;
         position: absolute;
-        top: 973px;
     }
     
     .laboratorio{
@@ -446,7 +435,6 @@ video{
         top: 840px;
         left: 400px;
     }
-    
     .perfil_labo{
         position: absolute;
         display: block;
@@ -499,7 +487,6 @@ video{
         padding: 0;
         text-decoration: none;
     }
-    
     .direcciones a:hover{
         background: rgba(0, 0, 0, .5);
         transition: .5s;
@@ -528,7 +515,6 @@ video{
     .active{
         background-color: white;
     }
-    
     .fade{
         animation-name: fade;
         animation-duration: 1.5s;
@@ -544,10 +530,8 @@ video{
         top: 1240px;
         left: 434px;
         background: white;
-        width: 150px;
-        height: auto;
     }
-    
+
     .titulo_original{
         position: relative;
         border-bottom: 2.5px solid black;
@@ -565,7 +549,6 @@ video{
      font-size: 20px;
      font-weight: bolder;
     }
-    
     .Aviso_1{
         display: inline-block;
         position: absolute;
