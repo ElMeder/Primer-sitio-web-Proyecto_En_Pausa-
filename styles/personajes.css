@@ -238,26 +238,26 @@ body{
 
 .Skill_Star{
  position: absolute;
- top: 25px;
- right: 32.5px;
+ top: 59px;
+ right: 32px;
 }
 
 .Skill_Star2{
     position: absolute;
-    top: 25px;
-    right: 22.5px;
+    top: 59px;
+    right: 22px;
 }
 
 .Skill_Star3{
     position: absolute;
-    top: 25px;
-    right: 12.5px;
+    top: 59px;
+    right: 12px;
 }
 
 .Skill_Star4{
     position: absolute;
-    top: 25px;
-    right: 2.5px;
+    top: 59px;
+    right: 2px;
 }
 
 .Contenido_de_Caracteristicas_de_Arma{
@@ -280,7 +280,40 @@ body{
     font-size: 1.2em;
     font-weight: bold;
     font-family: 'Alef', sans-serif;
-    color: plum;
+    color: rgb(63, 63, 63);
+}
+
+.Contenido_de_Caracteristicas_de_Elemento{
+    position: absolute;
+    top: 72%;
+    right: 91.8%;
+}
+
+.Titulo_de_Elemento{
+    position: relative;
+    top: 20px;
+    left: 65%;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+}
+
+.Anemo{
+    position: absolute;
+    top: 82%;
+    right: 95%;
+    width: 5%;
+    
+}
+
+.nombre_del_Anemo{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #89ffba;
+    font-family: 'Alef', sans-serif;
 }
 
 .Amber_icon{
