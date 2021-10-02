@@ -104,7 +104,7 @@ body{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 
@@ -172,23 +172,38 @@ body{
 
 .presentacion{
     position: absolute;
-    left: 490px;
-    width: 987px;
+    left: 2.3%;
+    width: 95%;
     height: 384px;
     top: 10px;
     border: 4px solid rgb(83, 82, 81);
-    border-left: none;
+    
 }
 
-.Caracteristica_d{
+.Caracteristica_S{
+    position: absolute;
+    left: 41%;
+    top: 10px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
-.Caracteristica_titulo{
+.Caracteristica_titulo_S{
+    position: absolute;
+    left: 41%;
+    bottom: 87%;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
+}
+
+.Caracteristica_titulo_S_2{
+    position: absolute;
+    left: 41%;
+    bottom: 45%;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .Nombres{
@@ -214,15 +229,14 @@ body{
 
 .Sacarosa{
     position: absolute;
-    bottom: 1476px;
-    right: 998px;
-    width: 480px;
+    width: 580px;
     height: 384px;
 }
 
 .Contenido_de_Caracteristicas_de_rareza{
     position: absolute;
-    bottom: 24%;
+    bottom: 44%;
+    left: 41%;
 }
 
 .Titulo_de_rareza{
@@ -260,8 +274,8 @@ body{
 
 .Contenido_de_Caracteristicas_de_Arma{
     position: absolute;
-    bottom: 24%;
-    left: 85px;
+    bottom: 44%;
+    left: 46%;
 }
 
 .Titulo_de_Arma{
@@ -283,8 +297,8 @@ body{
 
 .Contenido_de_Caracteristicas_de_Elemento{
     position: absolute;
-    top: 72%;
-    right: 91.8%;
+    bottom: 30%;
+    left: 43%;
 }
 
 .Titulo_de_Elemento{
@@ -298,8 +312,8 @@ body{
 
 .Anemo{
     position: absolute;
-    top: 82%;
-    right: 95%;
+    bottom: 20%;
+    left: 41%;
     width: 5%;
     
 }
@@ -314,6 +328,21 @@ body{
     font-family: 'Alef', sans-serif;
 }
 
+.ataque_normal_Sacarosa{
+    position: absolute;
+    top: 430px;
+    margin: 50px;
+}
+
+.Cuadro_de_ataque_normal_saca{
+    position: absolute;
+    top: 760px;
+    left: 63px;
+    background: #a0e1ff;
+}
+
+
+
 .Amber_icon{
     height: 145px;
     width: 145px;
@@ -322,13 +351,106 @@ body{
 
 .Amber{
     position: absolute;
-    bottom: 1476px;
-    right: 998px;
+    bottom: 1100px;
+    left: 6px;
     width: 480px;
     height: 384px;
     border: 4px solid rgb(83, 82, 81);
     border-right: none;
-   
+}
+
+.Contenido_de_Caracteristicas_de_rareza_am{
+    position: absolute;
+    bottom: 35%;
+}
+
+.Titulo_de_rareza_am{
+    position: relative;
+    top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+
+}
+
+.Skill_Star_am{
+ position: absolute;
+ top: 59px;
+ right: 32px;
+}
+
+.Skill_Star2_am{
+    position: absolute;
+    top: 59px;
+    right: 22px;
+}
+
+.Skill_Star3_am{
+    position: absolute;
+    top: 59px;
+    right: 12px;
+}
+
+.Skill_Star4_am{
+    position: absolute;
+    top: 59px;
+    right: 2px;
+}
+
+.Contenido_de_Caracteristicas_de_Arma_am{
+    position: absolute;
+    bottom: 36%;
+    left: 85px;
+}
+
+.Titulo_de_Arma_am{
+    position: relative;
+    top: 65px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+}
+
+.nombre_del_arma_am{
+    position: relative;
+    top: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+.Contenido_de_Caracteristicas_de_Elemento_am{
+    position: absolute;
+    top: 65%;
+    right: 91.8%;
+}
+
+.Titulo_de_Elemento_am{
+    position: relative;
+    top: 20px;
+    left: 65%;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+}
+
+.Pyro{
+    position: absolute;
+    top: 75%;
+    right: 95%;
+    width: 5%;
+    
+}
+
+.nombre_del_Pyro{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #89ffba;
+    font-family: 'Alef', sans-serif;
 }
 
 .jean.icon{
@@ -338,8 +460,8 @@ body{
 }
 .jean{
     position: absolute;
-    bottom: 1476px;
-    right: 998px;
+    bottom: 1076px;
+    left: 6px;
     width: 480px;
     height: 384px;
     border: 4px solid rgb(83, 82, 81);
@@ -354,8 +476,8 @@ body{
 
 .lisa{
     position: absolute;
-    bottom: 1476px;
-    right: 998px;
+    bottom: 1076px;
+    left: 6px;
     width: 480px;
     height: 384px;
     border: 4px solid rgb(83, 82, 81);
@@ -370,8 +492,8 @@ body{
 
 .kaeya{
     position: absolute;
-    bottom: 1476px;
-    right: 998px;
+    bottom: 1076px;
+    left: 6px;
     width: 480px;
     height: 384px;
     border: 4px solid rgb(83, 82, 81);
@@ -386,8 +508,8 @@ body{
 
 .barbara{
     position: absolute;
-    bottom: 1476px;
-    right: 998px;
+    bottom: 1076px;
+    left: 6px;
     width: 480px;
     height: 384px;
     border: 4px solid rgb(83, 82, 81);
@@ -402,12 +524,12 @@ body{
 
 .diluc{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .razor_icon{
@@ -418,12 +540,12 @@ body{
 
 .razor{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .venti_icon{
@@ -434,12 +556,12 @@ body{
 
 .venti{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .klee_icon{
@@ -450,12 +572,12 @@ body{
 
 .klee{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .bennett_icon{
@@ -466,12 +588,12 @@ body{
 
 .bennett{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .noelle_icon{
@@ -482,12 +604,12 @@ body{
 
 .noelle{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .fischl_icon{
@@ -498,12 +620,12 @@ body{
 
 .fischl{
     position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .mona_icon{
@@ -513,13 +635,13 @@ body{
 }
 
 .mona{
-position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    position: absolute;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .diona_icon{
@@ -529,13 +651,13 @@ position: absolute;
 }
 
 .diona{
-position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    position: absolute;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .albedo_icon{
@@ -545,13 +667,13 @@ position: absolute;
 }
 
 .albedo{
-position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    position: absolute;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .rosaria_icon{
@@ -561,13 +683,13 @@ position: absolute;
 }
 
 .rosaria{
-position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    position: absolute;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
-    border-right: none; 
+    border-right: none;
 }
 
 .eula_icon{
@@ -577,11 +699,11 @@ position: absolute;
 }
 
 .eula{
-position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    position: absolute;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
     border-right: none; 
 }
@@ -593,11 +715,11 @@ position: absolute;
 }
 
 .aloy{
-position: absolute;
-    bottom: 1516px;
-    right: 998px;
-    width: 490px;
-    height: 344px;
+    position: absolute;
+    bottom: 1076px;
+    left: 6px;
+    width: 480px;
+    height: 384px;
     border: 4px solid rgb(83, 82, 81);
     border-right: none; 
 }
